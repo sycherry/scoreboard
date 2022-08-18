@@ -20,6 +20,8 @@ export function ItemList(props: ItemListProps) {
         };
     }, [updatedScore, currentScore]);
 
+    //console.log("updatedScore",updatedScore)
+
     return (
         <SetColumn newIndex={newIndex} index={index}>
             <ItemIndex>{newIndex ? newIndex + 1 : index + 1}</ItemIndex>

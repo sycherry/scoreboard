@@ -7,7 +7,7 @@ export const Container = styled.article`
   background-color: #171717;
   padding-top: 3.5em;
 `;
-export const ScoreBoard = styled.ul`
+export const ScoreBoard = styled.div`
   background-color: rgba(255,255,255,0.8);
   width: 24rem;
   height: 35em;
